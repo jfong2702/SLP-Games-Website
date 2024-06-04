@@ -1,5 +1,5 @@
 """
-main.py
+app.py
 
 This is the entry point for the website.
 
@@ -22,9 +22,11 @@ Date:
 05/31/24
 
 """
+from website import create_app
 
 def main():
-    print("Hello Python!")
+    app = create_app()
+    app.run(debug=True)
 
 if __name__ == "__main__":
     main()

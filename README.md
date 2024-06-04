@@ -1,5 +1,5 @@
 # Test SLP Website for the Children!
 ## Running the website
- * step 1.
- * step 2. 
- * step 3.
+ * Run `python app.py` from repository root/src path.
+ * you can also do `flask run` to start from src directory.
+ * To host on internal IP use `flask run --host=0.0.0.0 --port=5000`.
